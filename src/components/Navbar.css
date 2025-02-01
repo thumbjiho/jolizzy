@@ -1,0 +1,59 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%; /* 가로스크롤 방지 */
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 16px;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+
+  
+  body {
+    background-color: #cccccc;
+    padding-top: 64px; /* 네비게이션 바가 화면을 가리지 않도록 여백 추가 */
+  }
+  
+  
+  .logo {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: -0.96px;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    font-family: "Geist Mono", monospace;
+    font-size: 14px;
+    letter-spacing: -0.42px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-item.active {
+    color: #1c14f3;
+    text-decoration: underline;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  
+  body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE, Edge */
+  }
+  
