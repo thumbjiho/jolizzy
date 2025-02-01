@@ -15,7 +15,7 @@
 
   
   body {
-    background-color: #cccccc;
+    background-color: #ff0000;
     padding-top: 64px; /* 네비게이션 바가 화면을 가리지 않도록 여백 추가 */
   }
   
@@ -46,14 +46,5 @@
   .nav-item.active {
     color: #1c14f3;
     text-decoration: underline;
-  }
-  
-  body::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
-  }
-  
-  body {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE, Edge */
   }
   
