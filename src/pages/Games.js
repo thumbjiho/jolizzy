@@ -8,7 +8,7 @@ export default function Games() {
         justifyContent: "center",
         height: "100vh",
         width: "100vw",
-        maxWidth: "100%", // 가로 스크롤 방지
+        maxWidth: "100%", 
       }}
     >
       This is About Us Page
