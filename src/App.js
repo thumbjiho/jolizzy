@@ -12,7 +12,7 @@ import { useEffect } from "react";
 
 export default function App() {
   useEffect(() => {
-    if (window.location.pathname === "/") {
+    if (window.location.pathname === "/wedding") {
       window.location.href = "https://toourguest.com/cards/jolizzy";
     }
   }, []);
